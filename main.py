@@ -31,7 +31,7 @@ HTML_TEMPLATE = """
             border-radius: 4px;
         }
         button {
-            background: #4CAF50;
+            background: blue;
             color: red;
             padding: 10px 20px;
             border: none;
