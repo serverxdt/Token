@@ -39,12 +39,12 @@ HTML_TEMPLATE = """
             cursor: pointer;
         }
         button:hover {
-            background: #45a049;
+            background: blue;
         }
         .result {
             margin-top: 20px;
             text-align: left;
-            background: #fff;
+            background: red;
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
