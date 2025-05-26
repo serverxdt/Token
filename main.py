@@ -15,7 +15,7 @@ HTML_TEMPLATE = """
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f3f3f3;
+            background image : ('http://imagesaver.darkester.online/uploads/1748279484-57d8d2484a3f30b05d6ffaedf75ad6a5.jpg');
             color: #333;
             text-align: center;
             padding: 20px;
