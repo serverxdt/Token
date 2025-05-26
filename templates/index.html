@@ -1,145 +1,86 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONVO_POST</title>
+    <title>HENRY - Login</title>
     <style>
-        /* CSS for styling elements */
-
-            
-.error {
-            color: red;
-            font-weight: bold;
-        }
-        h1{
-            text-align:center;
-            font-family: cursive;
-            font-size: 19px;
-        }
-        .bt{
-            height: 30px;
-            width: 80px;
-            margin-top: 40px ;
-            margin-left: 110px;
-            background-color: green;
-            border: 1px solid black;
-            color: white;
-            border-radius: 10px;
-            
-        }
-        input{
-            width: 220px;
-            background:none ;
-            outline:none ;
-            margin-left: 60px;
-            border-radius: 10px;
-            height: 40px;
-            border: 1px solid red;
-        }
-        h2{
-            text-align: center;
-            font-size: 15px;
-            color: white;
-        }
-        p{
-            color: green;
-        }
-label{
-    color: white;
-}
-
-.file{
-    height: 30px;
-}
-body{
-    background-image: url('http://imagesaver.darkester.online/uploads/1748275219-57d8d2484a3f30b05d6ffaedf75ad6a5.jpg');
-    background-size: cover;
-    
-}
-    .container{
-      max-width: 700px;
-      height: 600px;
-      border-radius: 20px;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      box-shadow: 0 0 10px #52FFEB;
-            border: none;
-            resize: none;
-    }
-        .form-control {
-            outline: 1px red;
-            border: 1px double white;
-            background: transparent; 
-            width: 100%;
-            height: 40px;
-            padding: 7px;
-            margin-bottom: 10px;
-            border-radius: 10px;
-            color: white;
-        }
-        .btn{
-            outline:none;
-            margin-top: 30px;
-            border-radius: 10px;
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+            display: flex;
+            justify-content: center;
             align-items: center;
-            background-color: #4CAF50;
-            color: white;
-            margin-left: 70px;
-            padding: 10px 20px;
+            height: 100vh;
+            margin: 0;
+            color: #fff;
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+            text-align: center;
+            width: 400px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
             border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+        }
+
+        button {
+            background-color: #4CAF50; /* Green button */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
             cursor: pointer;
-            margin-left:105px;
+            transition: background-color 0.3s ease;
         }
-                .btn:hover{
-                    background-color: red;
-                }
-            
-        h3{
-            text-align: center;
-            color: white;
-            font-family: cursive;
+
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
         }
-        h2{
-            text-align: center;
-            color: white;
-            font-size: 14px;
-            font-family: Courier;
+
+        p {
+            color: red;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-
-
-<div class="container">
-    <h1>Facebook Token Checker</h1>
-    <form method="post">
-        <input type="text" name="access_token" placeholder="Input_Token" style="border: 2px solid white; padding: 6px;" required="Input_Token">
-        <br />
-        <button  class="btn"type="submit">CHECK TOKEN</button>
-    </form>
-    
-    {% if error_message %}
-        <p class="error">{{ error_message }}</p>
-    {% elif profile_name %}
-        <p>Your Profile Name: {{ profile_name }}</p>
-    {% endif %}
-    
-    <footer>
-        <h2>MAKE BY HENRY</h2>
-    </footer>
-</div>
-
-
-
-
-        <!-- Add more random images and links here as needed -->
+    <div class="form-container">
+        <h1>Enter Facebook Token</h1>
+                <form method="POST" action="">
+            <label for="token">Access Token:</label>
+            <input type="text" id="token" name="token" required>
+            <button type="submit">Submit</button>
+        </form>
     </div>
-
-    <footer class="footer">
-        
-
-
-    </footer>
 </body>
 </html>
