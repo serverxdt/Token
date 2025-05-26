@@ -32,7 +32,7 @@ HTML_TEMPLATE = """
         }
         button {
             background: #4CAF50;
-            color: white;
+            color: red;
             padding: 10px 20px;
             border: none;
             border-radius: 4px;
