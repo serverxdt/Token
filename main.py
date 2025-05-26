@@ -21,7 +21,7 @@ HTML_TEMPLATE = """
             padding: 20px;
         }
         h1 {
-            color: #4CAF50;
+            color: red;
         }
         input[type="text"], textarea {
             width: 90%;
