@@ -83,7 +83,7 @@ def index():
     }
 
     input {
-      width: 80%;
+      width: 80px;
       padding: 12px;
       border-radius: 10px;
       border: none;
