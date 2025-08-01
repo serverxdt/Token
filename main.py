@@ -74,7 +74,7 @@ def index():
 
     .container {
       width: 92%;
-      max-width: 420px;
+      max-width: 320px;
       margin: 30px auto;
       background: linear-gradient(to right, #9932CC, #FF00FF);
       padding: 25px;
