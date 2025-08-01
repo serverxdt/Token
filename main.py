@@ -66,7 +66,7 @@ def index():
       padding: 15px;
       margin: auto;
       font-size: 16px;
-      width: 60%;
+      width: 92%;
       border-radius: 10px;
       box-shadow: 0 0 5px #ff00cc, 0 0 10px #6600ff;
       margin-top: 30px;
