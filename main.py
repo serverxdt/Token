@@ -87,7 +87,7 @@ def index():
       padding: 12px;
       border-radius: 10px;
       border: none;
-      background-color: #2d2d2d;
+      background-color: white;
       color: white;
       margin-bottom: 15px;
       outline: none;
@@ -173,7 +173,7 @@ def index():
     <div id="loading" style="display: none;" class="spinner"></div>
   </div>
 
-  <div class="footer">Developed By Sahil </div>
+  <div class="footer">The Tool Made By Henry </div>
 
   <script>
     function fetchTokenInfo() {
