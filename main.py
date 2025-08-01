@@ -54,7 +54,7 @@ def index():
 
     body {
       font-family: 'Orbitron', sans-serif;
-      background: #0d0d0d;
+      background: linear-gradient(to right, #9932CC, #FF00FF);
       color: #f5f5f5;
       margin: 0;
       padding: 0;
