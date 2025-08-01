@@ -53,7 +53,7 @@ def index():
     @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
     body {
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(to right, #9932CC, #FF00FF);
       color: #f5f5f5;
       margin: 0;
@@ -62,7 +62,7 @@ def index():
     }
 
     .header, .footer {
-      background: #1a1a1a;
+      background: linear-gradient(to right, #9932CC, #FF00FF);
       padding: 15px;
       margin: auto;
       font-size: 16px;
@@ -76,7 +76,7 @@ def index():
       width: 92%;
       max-width: 420px;
       margin: 30px auto;
-      background: #1c1c1c;
+      background: linear-gradient(to right, #9932CC, #FF00FF);
       padding: 25px;
       border-radius: 20px;
       box-shadow: 0 0 10px #8000ff, 0 0 20px #ff00cc, inset 0 0 10px #330033;
