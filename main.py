@@ -54,7 +54,7 @@ def index():
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #9932CC, #FF00FF, #F6358A);
+      background: linear-gradient(to right, #9932CC, #FF00FF);
       color: #f5f5f5;
       margin: 0;
       padding: 0;
@@ -83,7 +83,7 @@ def index():
     }
 
     input {
-      width: 100%;
+      width: 80%;
       padding: 12px;
       border-radius: 10px;
       border: none;
